@@ -1,2 +1,0 @@
-# Hillel_HW_Viktoriia_Masanovets
-new branch viktoriia.masanovets.gitpractice
