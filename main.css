@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fafafa;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+#name {
+    color: #7c3aed;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.position {
+    font-weight: 300;
+    margin-top: -10px;
+    color: #4c4c4c;
+}
+
+.about p {
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 1.4;
+}
+
+#profile-photo {
+    margin-top: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    transition: transform 0.3s;
+}
+
+#profile-photo:hover {
+    transform: scale(1.05);
+}
+
+/* Сторінка про Стаську */
+.cat-page {
+    background-color: #fafafa;
+    text-align: center;
+    padding: 20px;
+}
+
+.cat-title {
+    color: #7c3aed;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.cats-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.cat-card {
+    background: white;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+    max-width: 350px;
+    transition: transform 0.3s;
+}
+
+.cat-card:hover {
+    transform: scale(1.05);
+}
+
+.cat-card img {
+    width: 100%;
+    border-radius: 8px;
+    display: block;
+}
+
+.cat-card figcaption {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #444;
+}
+
+/* Сторінка контактів */
+.contacts-page {
+    background-color: #fafafa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+.contacts-card {
+    background: white;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    max-width: 350px;
+    text-align: center;
+}
+
+.contacts-title {
+    color: #7c3aed;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.contacts-info {
+    color: #444;
+    line-height: 1.6;
+}
+
